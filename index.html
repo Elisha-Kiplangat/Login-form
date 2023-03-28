@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in/up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
+font-awesome/4.7.0/css/font-awesome.min.css">
+       <script src="index.js"></script>
+</head>
+<body>
+       <fieldset>
+    <h3 class="h3">Please login to continue</h3>
+    <div class="frame">
+        <button class="signTxt"
+        id="button1"><b>Sign Up</b></button>
+
+        <button class="signTxt" 
+        id="button2"><b>Sign In</b></button>
+
+        <form class="field" action="" method="post">
+       <div class="signIn" id="content2" style="display: block;">
+              <div class="input-icons">
+       <i class="fa fa-envelope"></i>
+        <input type="text" name="email"
+               placeholder="Username or email"
+                required>
+              </div>
+              <div class="input-icons">
+       <i class="fa fa-lock"></i>
+        <input type="password"
+               placeholder="Password"
+               name="psw" required> 
+              </div>
+        <input type="checkbox"
+               checked
+               name="remember"> Remember me
+
+       <button class="forgotPass" type="button" id='button3' >Forgot Password?</button>
+
+        <button class="btnSign" type="submit">Sign In</button>
+       </div>
+       </form>
+
+
+        <form action="" method="post">
+       <div class="signUp" id="content1" style="display: none;">
+              <div class="input-icons">
+                     <i class="fa fa-user"></i>
+              <input type="text" name="first_Name" id="firstName"
+                     placeholder="First Name" required>
+              </div>
+              <div class="input-icons">
+                            <i class="fa fa-user"></i>
+              <input type="text" name="surname"  id="Surname"
+                     placeholder="Surname(optional)">
+              </div>
+              <div class="input-icons">
+                     <i class="fa fa-user"></i>
+              <input type="text" name="last_Name" id="lastName"
+                     placeholder="Last Name" required>
+              </div>
+              <div class="input-icons">
+                            <select name="selection" id="selection">
+                                   <option value="Kenya"></option>
+                                   <option value="Kenya">+253</option>
+                                   <option value="Kenya">+254</option>
+                                   <option value="Kenya">+255</option>
+                                   <option value="Kenya">+256</option>
+                                   <option value="Kenya">+257</option>
+                                   <option value="Kenya">+258</option>
+                                   <option value="Kenya">+258</option>
+                                   <option value="Kenya">+259</option>
+                            </select>
+
+              <input type="phone" name="phone" id="Phone"
+                     placeholder="Phone" required> 
+              </div>
+              <div class="input-icons">
+                            <i class="fa fa-envelope"></i>      
+              <input type="email" name="email" id="Email"
+                     placeholder="Email" required>
+              </div>
+              
+              <div> <b>Gender: </b>
+                  <label> <input type="radio" name="gender" value="Male"required> Male </label>
+                  <label> <input type="radio" name="gender" value="Female"required> Female </label>
+              </div>
+
+              <div class="input-icons">
+                     <i class="fa fa-lock"></i>
+              <input type="password" name="password"
+              pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{6,}"
+              title="Atleast 6 characters with a number,uppercase,lowercase and a non-alphabetic character"
+                     placeholder="Password" required>
+              </div>
+
+              <div class="input-icons">
+                     <i class="fa fa-lock"></i>
+              <input type="password" name="password"
+              title="Must be same as password"
+                     placeholder="Confirm password" required>
+              </div>
+              <button class="btnSign" type="submit">Sign Up</button>
+       </div>
+       </form>
+
+       <form>
+        <div class="forgot" id="content3" style="display: none;">
+           <p><b>Forgot Password?</b></p>
+           <div class="input-icons">
+              <i class="fa fa-envelope"></i> 
+            <input type="email" name="Email" 
+               placeholder="Enter Email" required>
+              </div>
+             <button class="btnSign">Submit</button>
+             <p>You will receive a verification code on your Email</p>
+           </div>
+       </form>
+
+       <h4>OR</h4>
+       
+       
+        <button class="google">Google</button>
+
+        <button class="facebook">Facebook</button>
+       
+        <a class="text" href="#">Why Create an Account?</a>
+       </div>
+    </fieldset>
+    
+</body>
+</html>
