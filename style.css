@@ -1,0 +1,157 @@
+body{
+    background-color: antiquewhite;
+    padding-left: 28%;
+    padding-right: 28%;
+}
+h3{
+    text-align: center;
+}
+fieldset{
+    align-content: center;
+    background-color: rgb(194, 200, 204);
+}
+.frame{
+    background-color: rgb(244, 247, 247);
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 80px;
+}
+.signTxt{
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 19px;
+    margin-top: 10px;
+    margin-right: 1%;
+    width: 49%;
+    margin-bottom: 20px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signTxt:active:focus{
+    background-color: rgb(72, 72, 77);
+    color: white;
+}
+input[type = text], [type = tel], [type = email], [type = password]{
+    font-size: medium;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 2%;
+    width: 98%;
+    text-align: center;
+}
+input[type = radio], [type = checkbox]{
+    padding-left: 0px;
+    margin-right: 0%;
+}
+.input-icons i{
+    position: absolute;
+    padding: 12px;
+    color: green;
+    min-width: 10px;
+    text-align: center;
+    border-right: 1px solid;
+    
+}
+#selection {
+    position: absolute;
+    border: none;
+    color: green;
+    border-right: 1px solid;
+    margin-top: 2px;
+    margin-left: 2px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+.forgotPass{
+    color: blue;
+    float: right;
+    margin-left: 50%;
+    margin-bottom: 10px;
+    text-decoration: none;
+    margin-right: 1%;
+    border-style: none;
+}
+.forgotPass:hover{
+    border-bottom: 1px solid;
+}
+button{
+    cursor: pointer;
+}
+.btnSign{
+    background-color: rgb(9, 196, 9);
+    color: white;
+    font-size: large;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 1%;
+    width: 99%;
+}
+.btnSign:hover{
+    background-color: rgb(2, 109, 6);
+    transition: 0.8s, 0.8s;
+    
+}
+.signUp{
+    display: none;
+}
+.signIn{
+    display: block;
+}
+h4{
+    display: flex;
+    flex-direction: row;
+}
+h4::before, h4::after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+    margin-right: 10px;
+}
+.google{
+    background-color: red;
+    color: white;
+    float: left;
+    font-size: large;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 1%;
+    width: 45%;
+}
+.facebook{
+    background-color: darkblue;
+    color: white;
+    float: right;
+    font-size: large;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 1%;
+    width: 45%;
+}
+
+.text{
+    float: right;
+    text-decoration: none;
+}
+p{
+    text-align: center;
+}
+.resetbtn{
+    background-color: rgb(9, 196, 9);
+    color: white;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+.forgot{
+    display: none;
+}
