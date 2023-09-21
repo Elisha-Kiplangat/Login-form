@@ -32,7 +32,7 @@ fieldset{
     background-color: rgb(72, 72, 77);
     color: white;
 }
-input[type = text], [type = tel], [type = email], [type = password]{
+input[type = text], [type = phone], [type = email], [type = password]{
     font-size: medium;
     padding-bottom: 10px;
     padding-top: 10px;
